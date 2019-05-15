@@ -1,0 +1,1 @@
+find . /home -name '*.vim'

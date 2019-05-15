@@ -1,1 +1,1 @@
-find . /home -name '*.vim'
+find . /home -name '.vim'

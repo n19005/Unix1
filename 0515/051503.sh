@@ -1,1 +1,1 @@
-locate . syslog
+locate syslog

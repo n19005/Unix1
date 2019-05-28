@@ -1,1 +1,1 @@
-sudo find /var -type f | xargs sudo du | tac | head -n 5
+sudo find /var -type f | xargs sudo du | sort -nr | head -n 5

@@ -1,1 +1,1 @@
-sudo find /var -type f | xargs sudo du | sort -nr | head -n 5
+sudo ls -lR /var | awk "{print$9, $5}" | sort -nr | head -n 5

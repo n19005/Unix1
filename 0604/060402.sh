@@ -1,4 +1,4 @@
-for file in "@*"
+for file in "$@"
 do
     if [ -f "$file" ]; then
         #ファイルの容量確認
@@ -6,5 +6,6 @@ do
 
     else
         #エラーメッセージ
-        echo 通常のファイルではありません
+        echo "通常のファイルではありません"
     fi
+done

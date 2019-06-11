@@ -32,9 +32,11 @@ do
         echo -n 'comment: '
         read comment
         git commit -m "$comment"
-        git log --oneline 3) git push
+        git log --oneline 
         ;;
-    *)
+        3) git push
+        ;;
+        *)
         echo 'end..'
         exit
         ;;
